@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+   
+    background-color: rgb(175, 240, 233);
+   min-height: 100vh;
+   border: 10px solid black;
+   
+}
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.img1, img {
+    border-radius: 150px 150px 150px 150px;
+    width: 250px;
+    height: 320px;
+}
+.top_section {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_section h4 {
+    float: right;
+    font-size: 30px;
+}
+.text2 {
+    margin-top: 80px;
+    font-size:60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.bio {
+    margin-top: 20px;
+}
+ul {
+    margin-top: 10px;
+}
+.top_section h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.about_section {
+    margin-top: 50px;
+}
+.about_section h2{
+  
+    font-size: 40px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.about_section p {
+    text-align: justify;
+font-size: 15px;
+line-height: 30px;
+ letter-spacing: 1px;
+ 
+}
+.about_section b {
+    font-size: 20px;
+}
+.bio_section {
+    margin-bottom: 70px;
+}
+.bio_section h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 100px;
+}
+.bio_section ul {
+    line-height: 25px;
+ letter-spacing: 1px;
+ font-size: 15px;
+ margin-left: 50px;
+}
+footer {
+    margin-bottom: 20px;
+   margin-top: 20px;
+
+}
+footer p {
+   text-align: end;
+}
