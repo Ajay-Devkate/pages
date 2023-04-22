@@ -27,6 +27,7 @@
     align-items: flex-end;
 }
 .top_section h4 {
+    display: flex;
     float: right;
     font-size: 30px;
 }
@@ -89,3 +90,35 @@ footer {
 footer p {
    text-align: end;
 }
+
+@media screen and (width <= 500px) {
+.top_section {
+    display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+}
+.date {
+   float: left;
+}
+.content {
+    padding:0 40px 0 40px;
+}
+    
+}
+@media screen and (width <= 970px) {
+    .top_section {
+        display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    
+    }
+    .content {
+        padding:0 40px 0 40px;
+    }
+        .text1 h1 {
+            padding-top: 30px;
+        }
+    }
